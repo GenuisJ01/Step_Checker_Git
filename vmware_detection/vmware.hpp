@@ -1,0 +1,11 @@
+void init_vmware();
+bool check_processes_running();
+bool check_vm_processes();
+bool check_vbox_regkeys();
+bool check_vbox_sysfiles();
+bool check_vbox_mac();
+bool check_vbox_wmi();
+bool check_vmware_regkeys();
+bool check_vmware_sysfiles();
+bool check_vmware_mac();
+bool check_vmware_wmi();
