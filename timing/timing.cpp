@@ -6,6 +6,8 @@ typedef NTSTATUS(WINAPI *pNtDelayExecution)(IN BOOLEAN, IN PLARGE_INTEGER);
 unsigned int delayInSeconds = 1U;
 unsigned int delayInMillis = delayInSeconds * 1000U;
 
+//Trying a git pull request
+
 /// @brief Uses NtDelayExecution library to timing attack
 /// @return True if it successfully passed the delay, false if it cannot NtDelay at all
 bool ntDelay() {
